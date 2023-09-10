@@ -1,0 +1,7 @@
+*.code-workspace
+__pycache__
+*.mp4
+*.png
+*.gif
+*.egg-info
+!assets/*

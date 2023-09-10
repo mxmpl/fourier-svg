@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fourier"
+version = "1.0"
+description = "Animation of Fourier series"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Maxime Poli" }]
+dependencies = ["numpy", "matplotlib", "scipy", "joblib", "svg.path"]
+
+[project.scripts]
+fourier = "fourier.__main__:main"
+
+[project.optional-dependencies]
+dev = ["ipykernel", "black", "ruff"]
+
+[tool.setuptools]
+packages = ["fourier"]
+
+[tool.black]
+line-length = 119
+
+[tool.ruff]
+line-length = 119
