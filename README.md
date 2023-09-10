@@ -20,6 +20,8 @@ files.
     fourier $SVG_PATH
     ```
 
+The animation is built with ffmpeg.
+
 ## How does it work?
 
 A SVG file is a XML file where each entry describe different
