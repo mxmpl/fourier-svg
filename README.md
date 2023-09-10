@@ -11,7 +11,7 @@ files.
 
 - Install:
   ```bash
-  git clone https://github.com/mxmpl/fourier
+  git clone https://github.com/mxmpl/fourier-svg
   cd fourier
   pip install .
   ```
